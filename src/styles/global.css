@@ -1,0 +1,92 @@
+@import "tailwindcss";
+
+@theme {
+  --font-code:  'JetBrains Mono', monospace;
+
+  --color-background: #F8F8F6;
+  --color-surface:    #EFEFED;
+  --color-text-base:  #1A1A1A;
+  --color-muted:      #666666;
+  --color-primary:    #7A4A7A;
+  --color-accent:     #C4952A;
+  --color-tag-bg:     #EFEFED;
+  --color-tag-text:   #1A1A1A;
+  --color-border:     color-mix(in srgb, black 8%, transparent);
+  --color-link:       #1A1A1A;
+
+  --shadow-base:
+    0 2px 6px rgba(0,0,0,0.08),
+    0 8px 24px rgba(0,0,0,0.10),
+    0 16px 32px rgba(0,0,0,0.10);
+}
+
+[data-theme="dark"] {
+  --color-background: #0D0D0D;
+  --color-surface:    #1A1A1A;
+  --color-text-base:  #F0F0EE;
+  --color-muted:      #888888;
+  --color-primary:    #B07AB0;
+  --color-accent:     #D4A84A;
+  --color-tag-bg:     #1A1A1A;
+  --color-tag-text:   #B07AB0;
+  --color-border:     color-mix(in srgb, white 8%, transparent);
+  --color-link:       #F0F0EE;
+}
+
+
+@layer base {
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  tab-size: 4;
+}
+
+body {
+  font-family: var(--font-atkinson);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  background-color: var(--color-background);
+  color: var(--color-text-base);
+}
+
+img,
+video,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul,
+ol {
+  list-style: none;
+}
