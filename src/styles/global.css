@@ -42,11 +42,21 @@
     margin: 0;
     padding: 0;
   }
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+  html {
+    @apply font-sans;
+  }
 }
 
 html {
   -webkit-text-size-adjust: 100%;
-  tab-size: 4;
+  tab-size: 2;
+  height: 100%;
 }
 
 body {
