@@ -1,63 +1,103 @@
 ---
-import AboutHeroImage from '../assets/blog-placeholder-about.jpg';
-import Layout from '../layouts/BlogPost.astro';
+import PageLayout from "@/layouts/Base.astro";
+
+const meta = {
+	description: "Hola, soy Gaby — desarrolladora front-end con 8 años de experiencia y muchas ganas de seguir aprendiendo.",
+	title: "About — Gaby Guzman",
+};
 ---
 
-<Layout
-	title="About Me"
-	description="Lorem ipsum dolor sit amet"
-	pubDate={new Date('August 08 2021')}
-	heroImage={AboutHeroImage}
->
-	<p>
-		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-		labore et dolore magna aliqua. Vitae ultricies leo integer malesuada nunc vel risus commodo
-		viverra. Adipiscing enim eu turpis egestas pretium. Euismod elementum nisi quis eleifend quam
-		adipiscing. In hac habitasse platea dictumst vestibulum. Sagittis purus sit amet volutpat. Netus
-		et malesuada fames ac turpis egestas. Eget magna fermentum iaculis eu non diam phasellus
-		vestibulum lorem. Varius sit amet mattis vulputate enim. Habitasse platea dictumst quisque
-		sagittis. Integer quis auctor elit sed vulputate mi. Dictumst quisque sagittis purus sit amet.
-	</p>
+<PageLayout meta={meta}>
+	<div class="mb-6 flex items-center justify-between">
+		<h1 class="title">Hola, soy Gaby 👋</h1>
+		<button
+			id="lang-toggle"
+			class="rounded-md border border-accent/40 px-3 py-1 text-xs text-accent transition-colors hover:bg-accent/10"
+		>
+			Switch to English
+		</button>
+	</div>
 
-	<p>
-		Morbi tristique senectus et netus. Id semper risus in hendrerit gravida rutrum quisque non
-		tellus. Habitasse platea dictumst quisque sagittis purus sit amet. Tellus molestie nunc non
-		blandit massa. Cursus vitae congue mauris rhoncus. Accumsan tortor posuere ac ut. Fringilla urna
-		porttitor rhoncus dolor. Elit ullamcorper dignissim cras tincidunt lobortis. In cursus turpis
-		massa tincidunt dui ut ornare lectus. Integer feugiat scelerisque varius morbi enim nunc.
-		Bibendum neque egestas congue quisque egestas diam. Cras ornare arcu dui vivamus arcu felis
-		bibendum. Dignissim suspendisse in est ante in nibh mauris. Sed tempus urna et pharetra pharetra
-		massa massa ultricies mi.
-	</p>
+	<div class="prose prose-sm prose-cactus max-w-none">
 
-	<p>
-		Mollis nunc sed id semper risus in. Convallis a cras semper auctor neque. Diam sit amet nisl
-		suscipit. Lacus viverra vitae congue eu consequat ac felis donec. Egestas integer eget aliquet
-		nibh praesent tristique magna sit amet. Eget magna fermentum iaculis eu non diam. In vitae
-		turpis massa sed elementum. Tristique et egestas quis ipsum suspendisse ultrices. Eget lorem
-		dolor sed viverra ipsum. Vel turpis nunc eget lorem dolor sed viverra. Posuere ac ut consequat
-		semper viverra nam. Laoreet suspendisse interdum consectetur libero id faucibus. Diam phasellus
-		vestibulum lorem sed risus ultricies tristique. Rhoncus dolor purus non enim praesent elementum
-		facilisis. Ultrices tincidunt arcu non sodales neque. Tempus egestas sed sed risus pretium quam
-		vulputate. Viverra suspendisse potenti nullam ac tortor vitae purus faucibus ornare. Fringilla
-		urna porttitor rhoncus dolor purus non. Amet dictum sit amet justo donec enim.
-	</p>
+		<!-- ESPAÑOL -->
+		<div id="content-es">
+			<p>
+				Soy desarrolladora front-end con más de 8 años de experiencia construyendo aplicaciones web.
+				Me especializo en React y TypeScript, y he trabajado en proyectos para los sectores financiero y retail
+				dentro de equipos grandes y multidisciplinarios.
+			</p>
+			<p>
+				Me gustan los equipos donde siempre hay algo que aprender y donde compartir lo que sabes
+				es parte del día a día. Eso es lo que busco — y también lo que intento hacer aquí.
+			</p>
+			<p>
+				Escribo sobre lo que aprendo en el trabajo: decisiones técnicas, herramientas, refactoring,
+				pruebas, y cómo integro IA en mi flujo diario sin perder el criterio propio.
+				Sin tutoriales genéricos — solo cosas que realmente viví.
+			</p>
+			<p>
+				También doy pláticas técnicas y participo en conferencias para motivar a más mujeres
+				a elegir carreras en tecnología.
+			</p>
+		</div>
 
-	<p>
-		Mattis ullamcorper velit sed ullamcorper morbi tincidunt. Tortor posuere ac ut consequat semper
-		viverra. Tellus mauris a diam maecenas sed enim ut sem viverra. Venenatis urna cursus eget nunc
-		scelerisque viverra mauris in. Arcu ac tortor dignissim convallis aenean et tortor at. Curabitur
-		gravida arcu ac tortor dignissim convallis aenean et tortor. Egestas tellus rutrum tellus
-		pellentesque eu. Fusce ut placerat orci nulla pellentesque dignissim enim sit amet. Ut enim
-		blandit volutpat maecenas volutpat blandit aliquam etiam. Id donec ultrices tincidunt arcu. Id
-		cursus metus aliquam eleifend mi.
-	</p>
+		<!-- ENGLISH -->
+		<div id="content-en" class="hidden">
+			<p>
+				I'm a Senior Front-End Developer with 8+ years of experience building scalable web applications.
+				I work mostly with React and TypeScript, and I've been part of cross-functional teams
+				in finance and retail projects.
+			</p>
+			<p>
+				I work best in high-standard engineering environments — the kind where people share knowledge,
+				care about code quality, and never stop learning. That's also what this blog is about.
+			</p>
+			<p>
+				I write about real things: refactoring legacy code, using AI tools without losing your own judgment,
+				technical decisions, and lessons from actual projects. No generic tutorials.
+			</p>
+			<p>
+				I also give tech talks and participate in conferences to encourage more women to choose careers in technology.
+			</p>
+		</div>
 
-	<p>
-		Tempus quam pellentesque nec nam aliquam sem. Risus at ultrices mi tempus imperdiet. Id porta
-		nibh venenatis cras sed felis eget velit. Ipsum a arcu cursus vitae. Facilisis magna etiam
-		tempor orci eu lobortis elementum. Tincidunt dui ut ornare lectus sit. Quisque non tellus orci
-		ac. Blandit libero volutpat sed cras. Nec tincidunt praesent semper feugiat nibh sed pulvinar
-		proin gravida. Egestas integer eget aliquet nibh praesent tristique magna.
-	</p>
-</Layout>
+		<hr class="my-8" />
+
+		<!-- STACK -->
+		<h2 class="text-base font-medium mb-3">Stack</h2>
+		<div class="flex flex-wrap gap-2 not-prose">
+			{["React", "TypeScript", "Next.js", "GraphQL", "Vite", "Jest", "React Testing Library", "LitElement", "GCP", "AWS", "GitHub Copilot", "Claude"].map((tech) => (
+				<span class="rounded-md border border-accent/40 px-2 py-1 text-xs text-accent">
+					{tech}
+				</span>
+			))}
+		</div>
+
+		<hr class="my-8" />
+
+		<!-- LOCATION -->
+		<p class="text-sm">
+			📍 Puebla, México — disponible para trabajo remoto / open to remote opportunities.
+		</p>
+
+		<!-- LINKS -->
+		<p class="text-sm">
+			<a href="mailto:guzmanhgaby@gmail.com" class="cactus-link">guzmanhgaby@gmail.com</a>
+		</p>
+
+	</div>
+</PageLayout>
+
+<script>
+	const btn = document.getElementById("lang-toggle");
+	const es = document.getElementById("content-es");
+	const en = document.getElementById("content-en");
+
+	btn?.addEventListener("click", () => {
+		const isEs = !es?.classList.contains("hidden");
+		es?.classList.toggle("hidden", isEs);
+		en?.classList.toggle("hidden", !isEs);
+		if (btn) btn.textContent = isEs ? "Cambiar a español" : "Switch to English";
+	});
+</script>
