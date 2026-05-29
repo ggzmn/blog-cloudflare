@@ -5,15 +5,15 @@ publishDate: "2021-07-01"
 tags: ["javascript", "es6", "testing", "coercion"]
 ---
 
-> 📦 **Recuperado de [dev.to](https://dev.to) — escrito hace casi 5 años.** Lo rescato tal como estaba: una foto de cómo pensaba entonces. Parte de crecer es poder mirar atrás y ver el camino.
+📦 **Recuperado de [dev.to](https://dev.to) — escrito hace casi 5 años.** Lo rescato tal como estaba: una foto de cómo pensaba entonces. Parte de crecer es poder mirar atrás y ver el camino.
 
 ---
 
-*Coerción de manera simple: Es la acción de forzar a que un objeto se comporte como si fuera de otro tipo.*
+_Coerción de manera simple: Es la acción de forzar a que un objeto se comporte como si fuera de otro tipo._
 
 Hace unos días estaba viendo un curso de React en alguna plataforma de educación online, me percaté que tenían una validación del siguiente tipo.
 
-> ⚠️ *El ejemplo de código original estaba alojado en Glitch, plataforma que cerró su servicio de hosting. Ya no tengo acceso al embed original.*
+> ⚠️ _El ejemplo de código original estaba alojado en Glitch, plataforma que cerró su servicio de hosting. Ya no tengo acceso al embed original._
 
 A pesar de que es funcional y correcto, no me dejó muy conforme, ya que actualmente realizo test unitarios con Mocha & Chai y una de las premisas de los test unitarios es la validación de todos los casos de la porción de código a testear.
 
@@ -40,7 +40,7 @@ La otra característica es que sería una función más reutilizable — ahora f
 
 Te explico: la función hace uso de `every`, que en términos generales determina si **todos** los elementos en el array satisfacen una condición.
 
-*¡What! ¿Un array? Pero si veo un objeto…*
+_¡What! ¿Un array? Pero si veo un objeto…_
 
 Sí, es un objeto, pero `Object.keys` es un método usado para retornar las propiedades enumerables, y entonces obtenemos un array con el nombre de las keys.
 
