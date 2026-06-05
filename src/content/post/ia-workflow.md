@@ -28,13 +28,13 @@ Así que, en definitiva, ha aumentado mi producción y automatizado tareas que s
 
 No llegué a mi setup actual de golpe. Empecé con Copilot integrado a VS Code. Me parece bueno para el autocompletado y sugerencias, predice lo que vas a escribir con bastante precisión. Pero con el tiempo me encontré con sus límites: deficiente con tests unitarios, lento para dar respuesta, y con sugerencias que no contextualizaban bien el código que ya existía.
 
-El primer cambio "fuerte" no fue por las herramientas de IA, fue por el editor. Trabaje con un monorepo grande y VS Code empezó a ser lento en todo: al abrir el proyecto, durante la edición, copilot de plano moría. Migré a Cursor principalmente por rendimiento. Su agente lo tengo desactivado, no me interesa usarlo, lo ejecute hasta que finalizó la prueba gratuita, pero la migración ocurrió más por una necesidad de performance del editor.
+El primer cambio "fuerte" no fue por las herramientas de IA, fue por el editor. Trabaje con un proyecto x grande y VS Code empezó a ser lento en todo: al abrir el proyecto, durante la edición, copilot de plano moría. Migré a Cursor principalmente por rendimiento. Su agente lo tengo desactivado, no me interesa usarlo, lo ejecute hasta que finalizó la prueba gratuita, pero la migración ocurrió más por una necesidad de performance del editor.
 
-Para el agente uso Claude Code, corriendo desde una extensión dentro de Cursor. La diferencia respecto a un chat es concreta: tiene acceso directo al proyecto, puede leer archivos, proponer cambios y ejecutarlos. Eso cambia lo que es posible delegar.
+Para el agente uso Claude, corriendo desde una extensión dentro de Cursor. La diferencia respecto a un chat es concreta: tiene acceso directo al proyecto, puede leer archivos, proponer cambios y ejecutarlos. Eso cambia lo que es posible delegar.
 
 ### Ejemplo
 
-En ese monorepo hay un middleware que levanta contenedores por aplicación. El problema era que al detectar cualquier cambio, actualizaba _todas_ las apps y no solo la que estaba editando. Era código que funcionaba pero que no me funcionaba del todo, y no era algo que pudierse optimizar yo mismo en ese momento. Lo delegué a Claude Code, le di contexto del comportamiento esperado, y lo dejé refactorizar hasta que solo actualizara el contenedor de la app modificada. Funcionó. Y yo pude enfocarme en lo que realmente importaba.
+En un proyecto con arquitectura compleja, había un orquestador cuyo comportamiento no era el óptimo y corregirlo no era una prioridad en ese momento para mí. Lo delegué a Claude Code, le di contexto del comportamiento esperado, y lo dejé refactorizar hasta obtener el resultado correcto. Funcionó. Y yo pude enfocarme en lo que realmente importaba.
 
 Eso es lo que significa delegar con criterio: saber qué código vale tu tiempo y qué código puede resolverse sin él.
 
