@@ -1,15 +1,13 @@
 ---
 title: "La proactividad no es un defecto, depende del entorno"
-publishDate: "2026-06-30"
+publishDate: "2026-05-30"
 description: "Lo que aprendí sobre por qué la misma actitud puede ser tu mayor activo en un lugar y tu mayor problema en otro."
 tags: ["reflexión", "liderazgo", "carrera", "softskills", "cultura técnica"]
 ---
 
-He estado pensando mucho en si esta entrada puede aportar algo de valor más que contarles experiencias profesionales.
+Los soft skills no son mi fuerte — te lo juro. Pero hubo un tiempo en mi carrera donde uno en particular me enseñó más de lo que esperaba.
 
-La verdad es que no estoy muy segura, ya que, siendo muy honesta, los _soft skills_ no son mi fuerte. Claro que a lo largo de mi carrera he intentado pulirlos — te lo juro.
-
-Sin embargo, hubo un momento en mi carrera donde una _soft skill_ que en un lugar era esperada y valorada, en otro generaba rechazo e indiferencia.
+En algún punto una _soft skill_ que en un lugar era esperada y valorada, en otro generaba rechazo e indiferencia.
 
 La única diferencia entre ambos entornos era el lugar, porque yo venía de trabajar con personas sumamente proactivas y con un nivel técnico mucho más alto. No trato de ser grosera con nadie — es la percepción que tuve y que tengo.
 
@@ -43,9 +41,13 @@ Cuando todo el mundo en un equipo opera con autonomía y seguridad técnica, nad
 
 Cuando el nivel no es parejo, o cuando la cultura está determinada por otra cosa menos que profesional, la dinámica cambia. Y la persona que llega con criterio propio puede volverse incómoda sin haber hecho nada diferente.
 
-No tengo una respuesta limpia sobre qué hacer en esos casos. Lo que sí sé es que el entorno importa tanto como tú — y que a veces la decisión más inteligente no es adaptarte, sino reconocer dónde no encajas y por qué.
+No tengo la respuesta. Pero sí sé que en esos entornos proteger tu energía y tu criterio es lo primero — aunque no puedas irte todavía. Quizás la respuesta no es una sola: depende de cuánto puedes aguantar, de cuánto te cuesta quedarte, y de qué opciones tienes realmente
 
-Voy terminar esta entrada con una opinión personal tal vez muy honesta, a veces uno no puede elegir irse, como si nada. Porque no es posible. Acá invito a la reflexión colectiva.
+En mi caso pude migrar a uno de los proyectos más chidos de mi carrera dónde crecí un montón y dónde mi proactividad nunca, volvió a ser un problema.
+
+Y repito: no siempre es posible simplemente irse. Hay cuentas que pagar, contextos que no se eligen. Eso es una conversación más larga que esta entrada.
+
+Me gustaría abrir la reflexión colectiva
 
 _¿Si no me puedo ir, entonces qué hacer?_
 
