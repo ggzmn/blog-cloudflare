@@ -1,6 +1,6 @@
 ---
 title: "La proactividad no es un defecto, depende del entorno"
-publishDate: "2026-05-30"
+publishDate: "2026-05-27"
 description: "Lo que aprendí sobre por qué la misma actitud puede ser tu mayor activo en un lugar y tu mayor problema en otro."
 tags: ["reflexión", "liderazgo", "carrera", "softskills", "cultura técnica"]
 ---
