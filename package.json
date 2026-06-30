@@ -50,6 +50,7 @@
 		"@types/mdast": "^4.0.4",
 		"@types/node": "^25.7.0",
 		"autoprefixer": "^10.4.27",
+		"dotenv": "^17.4.2",
 		"pagefind": "^1.4.0",
 		"prettier": "^3.8.1",
 		"prettier-plugin-astro": "0.14.1",
