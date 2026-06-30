@@ -1,0 +1,103 @@
+---
+import PageLayout from "@/layouts/Base.astro";
+
+const meta = {
+	description: "Hola, soy Gaby — desarrolladora front-end con 8 años de experiencia y muchas ganas de seguir aprendiendo.",
+	title: "About — Gaby Guzman",
+};
+---
+
+<PageLayout meta={meta}>
+	<div class="mb-6 flex items-center justify-between">
+		<h1 class="title">Hola, soy Gaby 👋</h1>
+		<button
+			id="lang-toggle"
+			class="rounded-md border border-accent/40 px-3 py-1 text-xs text-accent transition-colors hover:bg-accent/10"
+		>
+			Switch to English
+		</button>
+	</div>
+
+	<div class="prose prose-sm prose-cactus max-w-none">
+
+		<!-- ESPAÑOL -->
+		<div id="content-es">
+			<p>
+				Soy desarrolladora front-end con más de 8 años de experiencia construyendo aplicaciones web.
+				Me especializo en React y TypeScript, y he trabajado en proyectos para los sectores financiero y retail
+				dentro de equipos grandes y multidisciplinarios.
+			</p>
+			<p>
+				Me gustan los equipos donde siempre hay algo que aprender y donde compartir lo que sabes
+				es parte del día a día. Eso es lo que busco — y también lo que intento hacer aquí.
+			</p>
+			<p>
+				Escribo sobre lo que aprendo en el trabajo: decisiones técnicas, herramientas, refactoring,
+				pruebas, y cómo integro IA en mi flujo diario sin perder el criterio propio.
+				Sin tutoriales genéricos — solo cosas que realmente viví.
+			</p>
+			<p>
+				También doy pláticas técnicas y participo en conferencias para motivar a más mujeres
+				a elegir carreras en tecnología.
+			</p>
+		</div>
+
+		<!-- ENGLISH -->
+		<div id="content-en" class="hidden">
+			<p>
+				I'm a Senior Front-End Developer with 8+ years of experience building scalable web applications.
+				I work mostly with React and TypeScript, and I've been part of cross-functional teams
+				in finance and retail projects.
+			</p>
+			<p>
+				I work best in high-standard engineering environments — the kind where people share knowledge,
+				care about code quality, and never stop learning. That's also what this blog is about.
+			</p>
+			<p>
+				I write about real things: refactoring legacy code, using AI tools without losing your own judgment,
+				technical decisions, and lessons from actual projects. No generic tutorials.
+			</p>
+			<p>
+				I also give tech talks and participate in conferences to encourage more women to choose careers in technology.
+			</p>
+		</div>
+
+		<hr class="my-8" />
+
+		<!-- STACK -->
+		<h2 class="text-base font-medium mb-3">Stack</h2>
+		<div class="flex flex-wrap gap-2 not-prose">
+			{["React", "TypeScript", "Next.js", "GraphQL", "Vite", "Jest", "React Testing Library", "LitElement", "GCP", "AWS", "GitHub Copilot", "Claude"].map((tech) => (
+				<span class="rounded-md border border-accent/40 px-2 py-1 text-xs text-accent">
+					{tech}
+				</span>
+			))}
+		</div>
+
+		<hr class="my-8" />
+
+		<!-- LOCATION -->
+		<p class="text-sm">
+			📍 Puebla, México — disponible para trabajo remoto / open to remote opportunities.
+		</p>
+
+		<!-- LINKS -->
+		<p class="text-sm">
+			<a href="mailto:guzmanhgaby@gmail.com" class="cactus-link">guzmanhgaby@gmail.com</a>
+		</p>
+
+	</div>
+</PageLayout>
+
+<script>
+	const btn = document.getElementById("lang-toggle");
+	const es = document.getElementById("content-es");
+	const en = document.getElementById("content-en");
+
+	btn?.addEventListener("click", () => {
+		const isEs = !es?.classList.contains("hidden");
+		es?.classList.toggle("hidden", isEs);
+		en?.classList.toggle("hidden", !isEs);
+		if (btn) btn.textContent = isEs ? "Cambiar a español" : "Switch to English";
+	});
+</script>
