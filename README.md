@@ -15,6 +15,10 @@ npm run lint     # Biome lint with auto-fix
 npm run format   # Prettier formatting
 ```
 
+## Deployment
+
+This site deploys automatically with GitHub Actions on every push to the `master` branch.
+
 ## License and Copyright
 
 - **Source Code:** The code for this blog is licensed under the MIT License from [Cactus Astro Theme](https://github.com/chrismwilliams/astro-theme-cactus).
