@@ -9,7 +9,18 @@ const year = new Date().getFullYear();
 >
 	<div class="me-0 sm:me-4">
 		&copy; {siteConfig.author}
-		{year}.<span class="inline-block">&nbsp;🚀&nbsp;{siteConfig.title}&nbsp;🌵&nbsp;</span>
+		{year}.
+		<span class="inline-block">
+			&nbsp;🌵
+			<a
+				href="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+				target="_blank"
+				rel="noopener noreferrer license"
+				class="hover:text-global-text hover:underline"
+			>
+				@CC BY-NC-SA 4.0.
+			</a>&nbsp;
+		</span>
 	</div>
 	<nav aria-labelledby="footer_links" class="sm:divide-muted flex gap-x-2 sm:gap-x-0 sm:divide-x">
 		<p id="footer_links" class="sr-only">More on this site</p>
@@ -21,4 +32,5 @@ const year = new Date().getFullYear();
 			))
 		}
 	</nav>
+
 </footer>

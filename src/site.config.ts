@@ -12,7 +12,7 @@ export const siteConfig: SiteConfig = {
 	*/
   title: "depth first",
   // Used as both a meta property (src/components/BaseHead.astro L:31 + L:49) & the generated satori png (src/pages/og-image/[slug].png.ts)
-  author: "Gaby Guzman · Astro & Cactus theme",
+  author: "Gaby Guzman ·  Cactus theme",
   // Used as the default description meta property and webmanifest description
   description: "Gaby Guzman · Astro & Cactus theme",
   // HTML lang property, found in src/layouts/Base.astro L:18 & astro.config.ts L:48
