@@ -1,5 +1,5 @@
 ---
-title: "Centralizar CSS puede romper todo si no entiendes el orden"
+title: "--*: initial no es un reset inocente en TailwindCSS v4"
 description: "Los posibles issues que pueden surgir cuando mezclamos características CSS con TailwindCSS"
 publishDate: "2026-06-23"
 tags: ["css", "tailwindcssv4", "custom-properties", "debugging", "migracion"]
