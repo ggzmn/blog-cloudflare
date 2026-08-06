@@ -73,7 +73,7 @@ module.exports = {
 
 `package.json` es una declaración de intención, no una garantía de comportamiento del bundler. La distinción entre `dependencies` y `devDependencies` parece simple hasta que un bundler y un scanner de seguridad la interpretan cada uno a su manera y ninguno te avisa cuando eso pasa.
 
-Lo importante es que esto no es un bug, es el comportamiento normal de Vite. Inclusive uno de los dev de vite lo deja como respuesta en un hilo de github del 2021
+Lo importante es que esto no es un bug, es el comportamiento normal de Vite. Inclusive uno de los dev de vite lo deja como respuesta en un hilo de github del 2021.
 
 > [Answered by yyx990803 on Jan 29, 2021](https://github.com/vitejs/vite/discussions/1803)
 >
