@@ -2,7 +2,7 @@
 title: "Vite 6 no respeta tu devDependency si el código dice lo contrario"
 description: "Una dependencia dev llegó a producción porque Vite sí la bundleó"
 publishDate: 2026-07-29
-tags: ["vite", "security", "sonarqube", "dependencies", "bundling"]
+tags: ["vite", "security", "sonarqube", "dependencies", "bundling", "rollup"]
 ---
 
 ## Instalé una librería de Excel: ¿dependency o devDependency?
