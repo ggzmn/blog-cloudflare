@@ -52,7 +52,7 @@ Cambiar de librería frente a una alerta de severidad alta sin patch disponible 
 
 ## Otras soluciones que pude haber tomado
 
-- Lint rule que bloquee que código de producción importe algo de `devDependencies`.
+- Lint rule que bloquee que código de producción importe algo de `devDependencies` [ver más](https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-extraneous-dependencies.md).
 
 ```js
 // .eslintrc.js
