@@ -1,7 +1,7 @@
 ---
 title: "Vite 6 no respeta tu devDependency si el código dice lo contrario"
 description: "Una dependencia dev llegó a producción porque Vite sí la bundleó"
-publishDate: 2026-07-29
+publishDate: 2026-07-28
 tags: ["vite", "security", "sonarqube", "dependencies", "bundling", "rollup"]
 ---
 
