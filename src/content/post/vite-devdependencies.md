@@ -38,7 +38,7 @@ El quote anterior justifica lo que ocurre en _mode: development_, pero ¿qué pa
 
 La documentación de _Rollup_ sobre [Tree-Shaking](https://rollupjs.org/introduction/#tree-shaking) explica que arma el bundle en base al análisis estático de lo que se importa en el código, no menciona en ningún momento `dependencies` ni `devDependencies` como parte de esa decisión.
 
-Uniendo eso con lo que viví: si el análisis estático solo mira los `import` del código, entonces no importa en qué sección del `package.json` esté declarado el paquetem si el código de producción lo importa, Rollup lo va a incluir en el bundle.
+Uniendo eso con lo que viví: si el análisis estático solo mira los `import` del código, entonces no importa en qué sección del `package.json` esté declarado el paquete, si el código de producción lo importa, Rollup lo va a incluir en el bundle.
 
 Nota aclaratoria: esto es acerca de la versión 6 de Vite. Para la versión actual, Vite usa _Rolldown_; en una vista rápida a la documentación no encontre que realice lo mismo, de forma explicita. Sin embargo, hay un blog que menciona que tienen el mismo comportamiento: [ver más](https://kettanaito.com/blog/building-a-treeshakable-library-with-rollup).
 
