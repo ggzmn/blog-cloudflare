@@ -1,6 +1,6 @@
 ---
-title: "Qué le hace el vibe coding a nuestra mente [opinión]"
-description: "Qué ocurre cuando los no-programadores hacen vibe coding"
+title: "¿Qué le hace el vibe coding a tu cerebro?"
+description: "Qué dice la evidencia sobre cómo la IA cambia tu forma de aprender a programar"
 publishDate: 2026-08-24
 tags: ["vibe coding", "neurociencia", "reflexión", "opinión"]
 ---
