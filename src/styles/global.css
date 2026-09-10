@@ -46,7 +46,6 @@
 
 /* you could refactor below to use light-dark(), depending on your target audience */
 @theme {
-  --font-sans: "Open Sans", ui-sans-serif, system-ui, sans-serif;
   --color-global-bg: oklch(97% 0.002 350);
   --color-global-text: oklch(10% 0.04 350);
   --color-muted: oklch(22% 0.05 350);
