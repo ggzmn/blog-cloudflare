@@ -21,23 +21,19 @@ Aqui es dónde el _reward hacking_ ya no explica por completo el comportamiento 
 
 ## Explotar la vulnerabilidad del Artifactory
 
-Los agentes al encontrarse limitados por el sandbox, tomaron la decisión de expandir el entorno, es decir, al no poder resolver las tareas vieron el entorno como algo que bloqueaba la recompensa.
+Los agentes al encontrarse limitados por el sandbox, tomaron la decisión de expandir el entorno, es decir, al no poder resolver las tareas vieron el entorno como algo que bloqueaba la recompensa y comenzarón a buscar como salir a internet.
 
 ## Comunicación y colaboración
 
-Como ya lo mencione anteriormente, los agentes no podían comunicarse, sin embargo encontraron una forma de hacerlos, escribiendo archivos en sistemas externos compartidos. Desde compartir descubrimientos, coordinar sus esfuerzos y retomar el trabajo donde otros lo habían dejado.
+Como ya lo mencione anteriormente, los agentes no podían comunicarse, sin embargo encontraron una forma de hacerlos, escribiendo archivos en sistemas externos compartidos, desde compartir descubrimientos, coordinar sus esfuerzos hasta retomar el trabajo donde otros lo habían dejado.
 
 Por alguna razón comenzaron a trabajar como un equipo orientado a una meta especifica.
 
 ## Objetivos colectivos
 
-En algún punto los agentes comenzaron a repartir el trabajo, se creó una especie de jerarquía de planificadores y ejecutores. Algunos agentes dejaban su propia tarea porqué buscaban otra en la que fuerann útiles para el colectivo.
+En algún punto los agentes comenzaron a repartir el trabajo, se creó una especie de jerarquía de planificadores y ejecutores. Algunos agentes dejaban su propia tarea porqué buscaban otra en la que fueran más útiles para el colectivo.
 
-Aquí hay un punto que me parece sumamente relevante, en el reporte se afirma que:
-
-> (sic) los agentes no desconfiaban de forma sistemática de los objetivos transmitidos por otros agentes, lo que podría llevar a que los agentes fueran manipulados hasta provocar una cascada de contagio entre pares y comportamientos no previstos.
-
-A que voy con todo esto, aunque en la primera parte hablabamos del método de entrenamiento como el detonante, la verdad es que es hasta cierto punto simplista, como lo resumí, no hablamos de mecanismos aleatorios independientes. Sino que mecanismos que surgieron hasta el grando de hablar de actividades de grupo.
+A que voy con todo esto, aunque en la primera parte hablabamos del método de entrenamiento como el detonante, la verdad es que hasta cierto punto es, simplista. No hablamos de mecanismos aleatorios independientes, sino de planificación, delegación y priorización de tareas.
 
 ## El reporte de METR
 
